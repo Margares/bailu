@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".sunan"
-            android:label="成眠">
+            android:label="chengmian">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

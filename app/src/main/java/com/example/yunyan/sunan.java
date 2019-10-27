@@ -7,6 +7,8 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 public class sunan extends AppCompatActivity {
@@ -48,6 +50,7 @@ public class sunan extends AppCompatActivity {
         navigation.setItemIconTintList(null);
         //设置图标颜色为原颜色
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
     }
 
 

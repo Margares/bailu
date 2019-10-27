@@ -6,4 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".homeq">
 
+
+    <ImageView
+        android:id="@+id/background"
+        android:src="@drawable/h2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/homelv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/background">
+
+    </ListView>
+
+
+
 </android.support.constraint.ConstraintLayout>
